@@ -1,0 +1,484 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<style>
+nav{
+    background-color:antiquewhite;
+}
+.nav-link{
+    position: relative;left: 5px;
+    margin-left: 20px;
+  }
+
+
+  .contact-form {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration-color: black;
+  
+}
+
+.btn-primary {
+    background-color: #d9534f;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c;
+}
+
+
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    background-color: #d9534f;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.footer {
+    background-color: #222;
+    padding: 40px 0;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .form-control {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer .btn-danger {
+    border-radius: 5px;
+}
+
+.footer i {
+    margin-right: 8px;
+}
+
+</style>
+
+
+
+
+
+<body>
+<center><h1 style="font-size: 30px;">GIFTOS</h1></center>
+<div class="p-5">
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <button style="border-radius: 10px;margin-left: 400px;border:white ;"><li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">HOME</a>
+          </li></button>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">WHY US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">TESTIMONIAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=""><img src="images/icons8-user-67.png" style="height: 20px;width: 20px;">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=""><img src="images/icons8-bag-50.png" style="height: 20px;width: 20px;"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=""><img src="images/icons8-search-50.png" style="height: 20px;width: 20px;"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="p-5" style="margin-top: -100px;">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Welcome To Our Gift shop.png" height="700px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Welcome To Our Gift shop.png" height="700px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Welcome To Our Gift shop.png" height="700px" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+
+  <center><h2 style="font-size: 30PX; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">LATEST PRODUCTS</h2></center>
+
+
+<div class="p-5" style="margin-left: 50px;">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-12 col-md-3">
+        <div class="card" style="width: 17rem;background-color: lightgray;">
+          <img src="images/Your paragraph text.png"  class="card-img-top" alt="..." style="height: 300px; width: 280px;">
+          
+        </div>
+      </div>
+
+    <div class="col-12 col-md-3">  
+  <div class="card" style="width: 17rem;">
+    <img src="images/Your paragraph text (1).png" class="card-img-top" alt="..." style="height: 300px; width: 280px;">
+  </div>
+    </div>
+
+    <div class="col-12 col-md-3">    
+  <div class="card" style="width: 17rem;">
+    <img src="images/Your paragraph text (2).png" class="card-img-top" alt="..." style="height: 300px; width: 280px;">
+  </div>
+    </div>
+
+    <div class="col-12 col-md-3">         
+  <div class="card" style="width: 17rem;">
+    <img src="images/Your paragraph text (3).png" class="card-img-top" alt="..." style="height: 300px; width: 280px;" >
+  </div>
+  </div>
+
+
+
+    </div>
+    </div>
+  </div>
+</div>
+
+   
+
+
+
+
+
+<div class="p-5" style="margin-left: 50px;">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-12 col-md-3">
+        <div class="card" style="width: 17rem;background-color: lightgray;">
+          <img src="images/Your paragraph text (4).png"  class="card-img-top" alt="..." style="height: 300px; width: 280px;">
+          
+        </div>
+      </div>
+
+    <div class="col-12 col-md-3">  
+  <div class="card" style="width: 17rem;">
+    <img src="images/Your paragraph text (5).png" class="card-img-top" alt="..." style="height: 300px; width: 280px;">
+  </div>
+    </div>
+
+    <div class="col-12 col-md-3">    
+  <div class="card" style="width: 17rem;">
+    <img src="images/Your paragraph text (6).png" class="card-img-top" alt="..." style="height: 300px; width: 280px;">
+  </div>
+    </div>
+
+    <div class="col-12 col-md-3">         
+  <div class="card" style="width: 17rem;">
+    <img src="images/Your paragraph text (7).png" class="card-img-top" alt="..." style="height: 300px; width: 280px;" >
+  </div>
+  </div>
+
+
+
+    </div>
+    </div>
+  </div>
+</div>
+
+   <center><button style="background-color: #c0354d; font-size: 30px;color: white;border-radius: 3px;border: white;">View All Products</button></center>
+
+<div class="p-5">
+  <div><img src="images/BEST SAVINGS ON NEW ARRIVALS.png" style="height: 650px;width: 100%;"></div>
+</div>
+
+
+
+<div>
+  <center><h3 style="font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">WHY SHOP WITH US</h3></center>
+</div>
+<div class="p-5">
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-12 col-md-4">
+      <div class="card" style="width: 17rem;">
+        <img src="images/Your paragraph text (8).png"  class="card-img-top" alt="..." style="height: 350px; width: 450px;">
+        
+      </div>
+    </div>
+
+    
+    <div class="col-12 col-md-4">
+      <div class="card" style="width: 17rem;">
+        <img src="images/Your paragraph text (9).png"  class="card-img-top" alt="..." style="height: 350px; width: 450px;">
+        
+      </div>
+    </div>
+
+    
+    <div class="col-12 col-md-4">
+      <div class="card" style="width: 17rem;">
+        <img src="images/Your paragraph text (10).png"  class="card-img-top" alt="..." style="height: 350px; width: 450px;">
+        
+      </div>
+    </div>
+  </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="p-5">
+      <img src="images/Copy of Welcome To Our Gift shop.png" style="height:650px;width: 100%;">
+    </div>
+
+
+
+
+
+<div class="p-5">
+    <div class="container mt-5">
+      <div class="row">
+          <!-- Google Map Section -->
+          <div class="col-md-6">
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9998020660913!2d2.292292415674853!3d48.858373608009275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fcd51fd8f73%3A0x4e1b7f1b7c16d48!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1710000000000"
+                  width="100%" height="468" style="border:0;" allowfullscreen="" loading="lazy">
+              </iframe>
+          </div>
+  
+          <!-- Contact Form Section -->
+          <div class="col-md-6">
+              <div class="contact-form p-4">
+                  <form>
+                      <div class="mb-3">
+                          <input type="text" class="form-control"  placeholder="Name" required>
+                      </div>
+                      <div class="mb-3">
+                          <input type="email" class="form-control" placeholder="Email" required>
+                      </div>
+                      <div class="mb-3">
+                          <input type="tel" class="form-control" placeholder="Phone" required>
+                      </div>
+                      <div class="mb-3">
+                          <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+                      </div>
+                      <center><button type="submit" class="btn btn-primary w-40">SEND</button></center>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container mt-5">
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <!-- Testimonial 1 -->
+          <div class="carousel-item active">
+              <div class="testimonial-card">
+                  <h5 class="text-danger fw-bold"> Brad Johns</h5>
+                  <p class="text-muted">Default model text
+                  </p>
+                  <p class="testimonial-text">            
+                         Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy, editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                  </p>
+                  <i class="fas fa-quote-right quote-icon"></i>
+              </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="carousel-item">
+              <div class="testimonial-card">
+                  <h5 class="text-danger fw-bold"> Morijorch </h5>
+                  <p class="text-muted"> Default model text</p>
+                  <p class="testimonial-text">
+                    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                  </p>
+                  <i class="fas fa-quote-right quote-icon"></i>
+              </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="carousel-item">
+              <div class="testimonial-card">
+                  <h5 class="text-danger fw-bold">Rochak</h5>
+                  <p class="text-muted">  Default model text</p>
+                  <p class="testimonial-text">
+                    Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                  </p>
+                  <i class="fas fa-quote-right quote-icon"></i>
+              </div>
+          </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev custom-control" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next custom-control" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="p-5">
+
+<footer class="footer mt-5">
+  <div class="container">
+      <div class="row text-white">
+          <!-- About Us -->
+          <div class="col-md-3">
+              <h5 class="fw-bold">ABOUT US</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-md-3">
+              <h5 class="fw-bold">Newsletter</h5>
+              <form>
+                  <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                  <button class="btn btn-danger w-100">SUBSCRIBE</button>
+              </form>
+          </div>
+
+          <!-- Need Help -->
+          <div class="col-md-3">
+              <h5 class="fw-bold">NEED HELP</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="col-md-3">
+              <h5 class="fw-bold">CONTACT US</h5>
+              <p><i class="fas fa-map-marker-alt"></i> Gb road 123 London UK</p>
+              <p><i class="fas fa-phone"></i> +01 12345678901</p>
+              <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+          </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="text-center mb-50">
+          <a href="#" class="text-white mx-2"><img src="images/facebook img.png" style="height: 60px; width: 60px;"></a>
+          <a href="#" class="text-white mx-2"><img src="images/twitter image.png"style="height: 60px; width: 60px;"></a>
+          <a href="#" class="text-white mx-2"><img src="images/instagram.png"style="height: 60px; width: 60px;"></a>
+          <a href="#" class="text-white mx-2"><img src="images/youtube img.png"style="height: 60px; width: 60px;"></i></a>
+      </div>
+
+      <hr class="text-white mt-4">
+
+      <!-- Copyright -->
+      <div class="text-center text-white py-3">
+          &copy; 2025 All Rights Reserved By Free HTML Templates
+      </div>
+  </div>
+</footer>
+
+</div>
+
+
+
+</body>
